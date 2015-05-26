@@ -111,7 +111,6 @@
 						rectangles.push( expand(provisional_rect, options.slack) );
 						$(this).css('left',provisional_rect.x).css('top',provisional_rect.y).css('position','absolute');
 					} else {
-						console.warn('JQuery.arrange: bailout reached');
 						if (options.expandOnFull) {
 							$(self).width($(self).width() + 75);
 							$(self).height($(self).height() + 25);
